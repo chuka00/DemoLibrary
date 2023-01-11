@@ -4,6 +4,35 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AssemblyName>DemoLibrary</AssemblyName>
+    <RootNamespace>DemoLibrary</RootNamespace>
+    <PackageId>CalcutexDemoLibrary</PackageId>
+    <Title>Calcutex</Title>
+    <Version>1.0.0</Version>
+    <Authors>Chuka00</Authors>
+    <Company>BEZAO</Company>
+    <Product>DemoLibrary</Product>
+    <Description>This is a simple demo calculator which performs the following operations : 
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus</Description>
+    <PackageIcon>calc-icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/chuka00/DemoLibrary</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageOutputPath>bin\Debug\</PackageOutputPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="calc-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\calc-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
